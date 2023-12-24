@@ -1,0 +1,18 @@
+<%- include("partials/header.ejs") %>
+
+<h1 class="bbhead">All Blogs</h1>
+<ul class="bloger">
+    <% for (let j = 0; j < blogs.length; j++) { %>
+        <div class="blogbox">
+            <li><h2 class="bhead"><%= blogs[j].heading %></h2></li>
+            <li><p class="bcont"><%= blogs[j].content %></p></li>
+            <div class="edmod">
+                <!-- Delete link with blog ID -->
+                <a href="/delete/<%= j %>">Delete</a>
+                
+                <!-- Edit link with blog ID -->
+                <a href="/edit/<%= j %>">Edit</a>
+            </div>
+        </div>
+    <% } %>
+</ul>

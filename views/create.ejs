@@ -1,0 +1,26 @@
+<%- include("partials/header.ejs") %>
+
+<div class="createPost">
+    <h1>Write Your Blog</h1>
+    <form action="/created" method="POST" id="createBlogForm" class="blog-form">
+        <div class="large-row">
+            <!-- <label for="bloghead">Enter the title:</label> -->
+            <input type="text" name="bloghead" placeholder="Enter the Title:" required class="bloghead">
+        </div>
+
+        <div class="row1">
+            <!-- <label for="blog">Type Here:</label> -->
+            <textarea type="textfield" name="blog" placeholder="Type Here:" required class="blog"></textarea>
+        </div>
+
+        <div class="row1">
+            <input type="submit" value="Create" name="createdblog" class="createdblog">
+        </div>
+    </form>
+</div>
+
+<script>
+    document.getElementById("createBlogForm").addEventListener("submit", function() {
+        alert("Blog successfully created!! Check View All Blogs on the home page!!");
+    });
+</script>

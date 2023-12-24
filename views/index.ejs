@@ -1,0 +1,13 @@
+<%- include("partials/header.ejs") %>
+
+<h1 class="title">Welcome to PeekaBoo Blogs</h1>
+
+<div class="blogs">
+    <h2>Create a new blog</h2>
+    <form action="/submit" method="POST">
+    <input type="submit" value="Create New" class="newblog" >
+</form>
+    <form action="/blog" method="GET">
+        <input type="submit" value="View All Blogs" class="allblog">
+    </form>
+</div>

@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:  rgb(249, 236, 219) ;
+}
+.header{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+    background-color: rgba(231, 119, 138, 0.851);
+    padding-bottom: 20px;
+    
+}
+
+nav{
+    margin-right: 20px;
+   }
+
+nav ul{
+    display: inline-flex;
+    list-style-type: none;
+    gap: 25px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Itim', cursive;
+    color: rgb(249, 236, 219);
+    font-size: large;
+}
+
+.logo{
+    margin-left: 15px;
+}
+.logo a{
+    text-decoration: none;
+    font-family: 'Itim', cursive;
+    color: rgb(249, 236, 219);
+    font-size: large;
+}
+.heading{
+    padding-left: 100px;
+    font-family: 'Audiowide', sans-serif;
+    color: rgb(249, 236, 219);
+}
+
+.title {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Audiowide', sans-serif;
+    color: rgb(231, 119, 138);
+    text-decoration: underline;
+}
+
+.blogs{
+    margin-top: 35px;
+}
+
+.blogs h2{
+    text-align: center;
+    font-family: 'Audiowide', sans-serif;
+    color: rgb(231, 119, 138);
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newblog{
+    margin-top: 30px;
+    background-color: azure;
+    border: 3px solid rgb(231, 119, 138);
+    border-radius: 20px;
+    padding: 12px;
+    color: rgb(231, 119, 138);
+    
+}
+    
+.allblog{
+    margin-top: 30px;
+    background-color: azure;
+    border: 3px solid rgb(231, 119, 138);
+    border-radius: 20px;
+    padding: 12px;
+    color: rgb(231, 119, 138);
+}
+
+.createPost {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.createPost h1 {
+    margin-top: 30px;
+    font-family: 'Audiowide', sans-serif;
+    color: rgb(231, 119, 138);
+    text-decoration: underline;
+}
+
+.blog-form {
+    margin-top: 30px;
+    display: grid;
+    grid-template-rows: auto 5fr auto; /* Three rows: auto, 5 times the size, auto */
+    gap: 10px; /* Adjust the gap as needed */
+}
+
+.row1{
+    text-align: center;
+    margin-top: 20px;
+    grid-row: 0/1;
+}
+
+.row2{
+    text-align: center;
+    margin-top: 20px;
+    grid-row: 2/3;
+}
+
+.bloghead, .blog {
+    border: 3px solid rgb(231, 119, 138);
+    border-radius: 10px;
+    width: 350px;
+    height: 30px;
+}
+
+.blog {
+    height: 350px; /* Adjust the height as needed */
+}
+
+.large-row {
+    grid-row: 1/2 /* Occupies 5 rows */
+}
+
+.createdblog{
+    margin-top: 15px;
+    background-color: azure;
+    border: 3px solid rgb(231, 119, 138);
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(231, 119, 138);
+}
+
+
+.blogbox{
+    margin-top: 40px;
+    border: 1px solid rgb(105, 47, 47);
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: azure;
+}
+.bloger{
+    list-style-type: none;
+   
+}
+.bhead{
+    text-align: center;
+    font-family: 'Audiowide', sans-serif;
+    color: rgb(231, 119, 138);
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.bcont{
+    
+    text-align: center;
+    font-family: 'Itim', cursive;
+    color: rgb(231, 119, 138);
+    padding: 20px;
+}
+.bbhead{
+    text-align: center;
+    font-family: 'Audiowide', sans-serif;
+    color: rgb(231, 119, 138);
+    margin-top: 20px;
+}
+.edmod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.editedblog{
+    margin-top: 15px;
+    background-color: azure;
+    border: 3px solid rgb(231, 119, 138);
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(231, 119, 138);
+}

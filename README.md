@@ -3,4 +3,4 @@ A simple blog site where we can create blog, view blog, edit blog , delete blog-
 
 you should have node installed for this website to run
 
-remaing codes will be updated soon
+remaing codes will be updated soon!!
